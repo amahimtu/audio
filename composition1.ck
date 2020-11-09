@@ -1,3 +1,6 @@
+<<<"Author: Akshay Mahimtura">>>;
+<<<"Date: 9 November 2020">>>;
+
 //sound network
 
 SinOsc s=> dac;
@@ -46,10 +49,10 @@ now + 10::second=> time later;
 //how to set seed to get same set of randomly generated sounds every time: Math.srandom(150);
 
 while (now<later){
-    Math.random2f(30,1000)=>s.freq;
+    Math.random2f(30,1000)=>s.freq; //randomize frequency for 's' in this range
     
     0.1::second=>now;
-    Math.random2f(20,80)=>u.freq;
+    Math.random2f(20,80)=>u.freq; //randomize frequency for 'u' in this range
 }
 
 //setting time 'much_later'
@@ -64,18 +67,18 @@ now + 10::second=> time much_later;
 
 while (now<much_later){
     for(60=>int i; i<=127; i++){
-        Std.mtof(i)=>float Hz;
+        Std.mtof(i)=>float Hz; //MIDI to frequency
         <<<i,Hz>>>;
         Hz=>s.freq;
-        Math.random2f(25,65)=>t.freq;
+        Math.random2f(25,65)=>t.freq; //randomize frequency for 't' in this range
         100::ms=>now;
         
     }
     for(127=>int i; i>=60; i--){
-        Std.mtof(i)=>float Hz;
+        Std.mtof(i)=>float Hz; //MIDI to frequency
         <<<i,Hz>>>;
         Hz=>t.freq;
-        Math.random2f(25,65)=>s.freq;
+        Math.random2f(25,65)=>s.freq; //randomize frequency for 's' in this range
         100::ms=>now;
     }
 }
