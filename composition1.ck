@@ -1,8 +1,7 @@
 <<<"Author: Akshay Mahimtura">>>;
-<<<"Date: 9 November 2020">>>;
+
 
 //sound network
-
 SinOsc s=> dac;
 SawOsc t=> dac;
 SqrOsc u=> dac;
