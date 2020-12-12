@@ -1,3 +1,5 @@
+<<<"Author: Akshay Mahimtura">>>;
+
 //snare.ck
 //sound chain
 SndBuf snare => dac;
