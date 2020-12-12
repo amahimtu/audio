@@ -1,3 +1,5 @@
+<<<"Author: Akshay Mahimtura">>>;
+
 //score.ck
 //"On the fly drumming with global BPM conducting"
 
