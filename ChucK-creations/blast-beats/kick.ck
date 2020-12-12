@@ -1,4 +1,6 @@
-//kick,ck
+<<<"Author: Akshay Mahimtura">>>;
+
+//kick.ck
 //sound chain
 SndBuf kick => dac;
 me.dir(-1) + "audio/kick_03.wav" => kick.read; 
