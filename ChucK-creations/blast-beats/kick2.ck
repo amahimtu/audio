@@ -1,3 +1,5 @@
+<<<"Author: Akshay Mahimtura">>>;
+
 //kick2.ck; thirtysecond instead of sixteenth
 //sound chain
 SndBuf kick2 => dac;
