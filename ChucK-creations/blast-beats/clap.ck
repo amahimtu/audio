@@ -1,3 +1,5 @@
+<<<"Author: Akshay Mahimtura">>>;
+
 //clap.ck 
 //sound chain
 SndBuf clap => dac;
