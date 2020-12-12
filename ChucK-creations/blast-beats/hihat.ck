@@ -1,3 +1,5 @@
+<<<"Author: Akshay Mahimtura">>>;
+
 //hihat.ck
 //sound chain
 SndBuf hihat => dac;
