@@ -1,3 +1,5 @@
+<<<"Author: Akshay Mahimtura">>>;
+
 //ride.ck
 SndBuf ride => dac;
 me.dir(-1) + "audio/OS_SCS_Raw_Ride_Single_Hit_17.wav" => ride.read; 
